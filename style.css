@@ -1,0 +1,100 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: unset;
+}
+ 
+body{
+    background-color:rgb(0, 0, 0);
+  
+}
+header a{
+    color:#1E90FF
+}
+.menu, ul, li{
+    font-size: 40px;
+    
+}
+ 
+ h1{
+    color: white;
+    position: center;
+    
+ }
+ .baro{
+    background-color:black;
+    display: block;
+    align-items: center;
+
+    margin-left: 0;
+ }
+ .img{
+    width: 20%;
+ }
+
+ 
+.taxo{
+ position: absolute;
+ top: 400px; 
+ right: 10px
+}
+
+
+.taxo{
+
+    animation: flutuar 3s ease-in-out infinite alternate;
+}
+
+
+
+
+ @keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top: 400px;
+    }
+
+  
+ }
+
+
+    .corpo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        background-color: #0051a1;
+        max-width: 700px;
+        padding: 20px;
+        border-radius: 10px;
+
+ }
+ .instagram-buttun{
+
+    width: 150px;
+
+ }
+
+ .ault{
+
+    color: #1E90FF;
+    text-align: center;
+    font-size: 80px;
+ }
+
+ .bru{
+    font-size: 90px;
+    color: #0051a1;
+    text-align: center;
+ }
+
+ 
+ .texto{
+
+font-size: 40px;
+ }
